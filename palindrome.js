@@ -1,6 +1,6 @@
-let input = document.getElementById("text-input"); //1
-const checkButton = document.getElementById("check-btn"); //2
-const results = document.getElementById("result"); //3
+let input = document.getElementById("text-input");
+const checkButton = document.getElementById("check-btn");
+const results = document.getElementById("result");
 
 function getResults() {
   if (input.value === "") {
